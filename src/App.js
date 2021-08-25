@@ -1,11 +1,13 @@
 import './App.css';
 import TopHeader from "./Header/Header_top";
+import {Header_bottom} from "./Header/Header_bottom";
 
 
 function App() {
   return (
     <div className="Main_wrap" >
-        <TopHeader/>
+         <TopHeader/>
+         <Header_bottom/>
     </div>
   );
 }

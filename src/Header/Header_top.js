@@ -15,9 +15,9 @@ export default function TopHeader (){
                 <div className={'action'}>
                     <ul className={'header_list d-flex'}>
                         <li> <a href={'#'} className={'header_list-item before-one'}>Log in or Register</a></li>
-                        <li> <a href={'#'} className={'header_list-item before-one'}>WISHLIST</a></li>
-                        <li> <a href={'#'} className={'header_list-item before-one'}>GIFT REGISTRY</a></li>
-                        <li> <a href={'#'} className={'header_list-item before-one'}>STORE LOCATOR</a></li>
+                        <li> <a href={'#'} className={'header_list-item before-two'}>WISHLIST</a></li>
+                        <li> <a href={'#'} className={'header_list-item before-three'}>GIFT REGISTRY</a></li>
+                        <li> <a href={'#'} className={'header_list-item before-four'}>STORE LOCATOR</a></li>
                     </ul>
                 </div>
             </div>
