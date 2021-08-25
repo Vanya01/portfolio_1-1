@@ -3,3 +3,28 @@
 }
 
 /*//////////////////////////////////////////////////*/
+.header_upper_logo>h1{
+    font-size: 27px ;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.header_upper_top{
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.text_input{
+    padding: 17px 311px 15px 23px;
+    background: #F0F5F5;
+    border-radius: 50px;
+}
+.form_header{
+    position: relative;
+    margin-right: 30px;
+}
+.btn_top{
+     position: absolute;
+    right: 20px;
+    top: 13px;
+}
