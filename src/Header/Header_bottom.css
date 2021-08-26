@@ -28,3 +28,26 @@
     right: 20px;
     top: 13px;
 }
+
+.upper_bottom_titles>h2{
+    font-weight: bold;
+}
+.upper_bottom_titles{
+    display: flex;
+
+}
+
+.header_upper_bottom{
+    justify-content: space-between;
+    padding: 48px 0 17px 0;
+}
+.upper_bottom_titles::after{
+    content: '';
+    background-image:url('../Header/imgs/Shape 10 copy 2@1X.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 12px;
+    padding: 0 15px 0 0 ;
+}
+

@@ -1,6 +1,7 @@
 import './App.css';
 import TopHeader from "./Header/Header_top";
 import {Header_bottom} from "./Header/Header_bottom";
+import Hero from "./Hero/Hero";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="Main_wrap" >
          <TopHeader/>
          <Header_bottom/>
+         <Hero/>
     </div>
   );
 }

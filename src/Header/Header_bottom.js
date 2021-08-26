@@ -21,8 +21,13 @@ export function Header_bottom(){
                     </div>
 
           </div>
-            <div className="header_upper_bottom">
-
+            <div className="header_upper_bottom d-flex">
+                <div className="upper_bottom_titles"><h2>NEW ARRIVALS</h2> </div>
+                <div className="upper_bottom_titles"><h2>WOMENS</h2> </div>
+                <div className="upper_bottom_titles"><h2>MENS</h2> </div>
+                <div className="upper_bottom_titles"><h2>ACCESSORIES</h2> </div>
+                <div className="upper_bottom_titles"><h2>GET CERTIFICATES</h2> </div>
+                <div className="upper_bottom_titles"><h2>TOP SELLER</h2> </div>
             </div>
         </div>
     )
