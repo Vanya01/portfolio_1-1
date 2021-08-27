@@ -7,15 +7,6 @@
     justify-content: center;
     align-items: flex-end;
 }
-/*.slider::before{*/
-/*    content:'';*/
-/*    background-image: url("../Imgs/Shape 13 copy 4@1X.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-position: center;*/
-/*    width: 10px;*/
-/*    height: 12px;*/
-/*    padding: 0 15px 0 0 ;*/
-/*}*/
 
 
 .slider::after{
@@ -27,4 +18,16 @@
     height: 12px;
     padding: 0 15px 0 0 ;
     margin-right: 10px;
+}
+.wrap_btns{
+
+text-align:center;
+
+}
+.btn_main{
+    margin: 10px;
+    color: #282828;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
 }
