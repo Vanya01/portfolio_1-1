@@ -1,9 +1,10 @@
-import './Header_bottom.css'
-import logo from '../Header/imgs/logo.png'
-import search from '../Header/imgs/Search Icon@1X.png'
-import basket from  '../Header/imgs/Cart Icon@1X.png'
+import './Header_bottom.css';
+import React from "react";
+import logo from '../Header/imgs/logo.png';
+import search from '../Header/imgs/Search Icon@1X.png';
+import basket from  '../Header/imgs/Cart Icon@1X.png';
 
-export function Header_bottom(){
+export default function Header_bottom(){
     return(
         <div className={'header_upper container'}>
           <div className="header_upper_top d-flex a-center ">
