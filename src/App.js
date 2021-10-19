@@ -1,7 +1,8 @@
 import './App.css';
 import TopHeader from "./Header/Header_top";
 import {Header_bottom} from "./Header/Header_bottom";
-import Hero from "./Hero/Hero";
+import {Hero} from "./Hero/Hero";
+
 
 
 function App() {
